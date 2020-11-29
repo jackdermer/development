@@ -167,7 +167,7 @@ class FilteredList extends React.Component {
             sum += (this.state.cart[i].numCart) * this.state.cart[i].stockPrice
         }
 
-        return sum
+        return sum.toFixed(2)
     }
 
     //alerts the user that they have successfully checked out and how much their total was
